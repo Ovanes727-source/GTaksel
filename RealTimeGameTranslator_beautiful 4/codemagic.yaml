@@ -4,8 +4,12 @@ workflows:
     scripts:
       - name: Build Release APK
         script: | 
-          cd RealTimeGameTranslator_beautiful
+          cd
+RealTimeGameTranslator_beautiful
           chmod +x ./gradlew
-          ./gradlew clean assembleRelease --no-daemon
+          ./gradlew clean
+assembleRelease --no-daemon
     artifacts:
-      - RealTimeGameTranslator_beautiful/app/build/outputs/**/*.apk
+      - 
+RealTimeGameTranslator_beautiful/app/
+build/outputs/**/*.apk
